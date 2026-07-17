@@ -1,0 +1,22 @@
+import { Router } from "express";
+import { AuthRoutes } from "./models/Auth/auth.routes";
+import { FirmRouter } from "./models/Firm/firm.route";
+import { SensorRouter } from "./models/Sensor/sensor.route";
+import { UserRoutes } from "./models/User/user.routes";
+import { CropRouter } from "./models/crop/crop.routes";
+import { TelemetryRouter } from "./models/Telemetry/telemetry.route";
+import { BlogRouter } from "./models/blog/blog.route";
+import { AdminRouter } from "./models/Admin/admin.route";
+
+const router = Router();
+
+router.use("/auth", AuthRoutes);
+router.use("/firms", FirmRouter);
+router.use("/sensors", SensorRouter);
+router.use("/users", UserRoutes);
+router.use("/crops", CropRouter);
+router.use("/telemetry", TelemetryRouter);
+router.use("/blogs", BlogRouter);
+router.use("/admin", AdminRouter);
+
+export const mainRouter = router;

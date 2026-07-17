@@ -1,0 +1,842 @@
+[
+  {
+    "name": "Rice (Aman)",
+    "category": "Cereal",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 6,
+      "endMonth": 8
+    },
+    "harvestPeriod": {
+      "startMonth": 11,
+      "endMonth": 12
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 30
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 85
+      },
+      "soilType": "Loamy, Silt Loamy",
+      "soilmoistureRange": {
+        "min": 50,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Rice (Boro)",
+    "category": "Cereal",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 12,
+      "endMonth": 1
+    },
+    "harvestPeriod": {
+      "startMonth": 4,
+      "endMonth": 5
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 18,
+        "max": 28
+      },
+      "humidityRange": {
+        "min": 60,
+        "max": 75
+      },
+      "soilType": "Clay Loam",
+      "soilmoistureRange": {
+        "min": 70,
+        "max": 85
+      }
+    }
+  },
+  {
+    "name": "Potato",
+    "category": "Tuber",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 11,
+      "endMonth": 12
+    },
+    "harvestPeriod": {
+      "startMonth": 2,
+      "endMonth": 3
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 15,
+        "max": 22
+      },
+      "humidityRange": {
+        "min": 65,
+        "max": 80
+      },
+      "soilType": "Loamy, Sandy Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 80
+      }
+    }
+  },
+  {
+    "name": "Tomato",
+    "category": "Vegetable",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 10,
+      "endMonth": 11
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 4
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 18,
+        "max": 25
+      },
+      "humidityRange": {
+        "min": 60,
+        "max": 70
+      },
+      "soilType": "Loamy, Silt Loamy",
+      "soilmoistureRange": {
+        "min": 50,
+        "max": 70
+      }
+    }
+  },
+  {
+    "name": "Maize",
+    "category": "Cereal",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 6,
+      "endMonth": 7
+    },
+    "harvestPeriod": {
+      "startMonth": 9,
+      "endMonth": 11
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 60,
+        "max": 75
+      },
+      "soilType": "Loamy, Silt Loamy",
+      "soilmoistureRange": {
+        "min": 45,
+        "max": 65
+      }
+    }
+  },
+  {
+    "name": "Wheat",
+    "category": "Cereal",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 11,
+      "endMonth": 12
+    },
+    "harvestPeriod": {
+      "startMonth": 2,
+      "endMonth": 4
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 10,
+        "max": 25
+      },
+      "humidityRange": {
+        "min": 50,
+        "max": 70
+      },
+      "soilType": "Loamy",
+      "soilmoistureRange": {
+        "min": 40,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Jute",
+    "category": "Fiber",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 3,
+      "endMonth": 5
+    },
+    "harvestPeriod": {
+      "startMonth": 7,
+      "endMonth": 9
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 24,
+        "max": 35
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 90
+      },
+      "soilType": "Silt Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 80
+      }
+    }
+  },
+  {
+    "name": "Groundnut",
+    "category": "Oilseed",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 5,
+      "endMonth": 6
+    },
+    "harvestPeriod": {
+      "startMonth": 10,
+      "endMonth": 11
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 60,
+        "max": 80
+      },
+      "soilType": "Sandy Loamy, Loamy",
+      "soilmoistureRange": {
+        "min": 40,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Soybean",
+    "category": "Pulse/Oilseed",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 5,
+      "endMonth": 6
+    },
+    "harvestPeriod": {
+      "startMonth": 9,
+      "endMonth": 10
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 30
+      },
+      "humidityRange": {
+        "min": 60,
+        "max": 80
+      },
+      "soilType": "Loamy, Silt Loamy",
+      "soilmoistureRange": {
+        "min": 40,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Guava",
+    "category": "Fruit",
+    "season": "Perennial",
+    "showingPeriod": {
+      "startMonth": 2,
+      "endMonth": 3
+    },
+    "harvestPeriod": {
+      "startMonth": 5,
+      "endMonth": 10
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 55,
+        "max": 80
+      },
+      "soilType": "Loamy, Clay Loam",
+      "soilmoistureRange": {
+        "min": 45,
+        "max": 70
+      }
+    }
+  },
+  {
+    "name": "Mustard",
+    "category": "Oilseed",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 10,
+      "endMonth": 11
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 2
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 10,
+        "max": 25
+      },
+      "humidityRange": {
+        "min": 50,
+        "max": 70
+      },
+      "soilType": "Loamy, Sandy Loamy",
+      "soilmoistureRange": {
+        "min": 40,
+        "max": 55
+      }
+    }
+  },
+  {
+    "name": "Onion",
+    "category": "Vegetable",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 11,
+      "endMonth": 12
+    },
+    "harvestPeriod": {
+      "startMonth": 3,
+      "endMonth": 4
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 13,
+        "max": 24
+      },
+      "humidityRange": {
+        "min": 60,
+        "max": 70
+      },
+      "soilType": "Sandy Loamy",
+      "soilmoistureRange": {
+        "min": 50,
+        "max": 65
+      }
+    }
+  },
+  {
+    "name": "Garlic",
+    "category": "Vegetable",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 10,
+      "endMonth": 11
+    },
+    "harvestPeriod": {
+      "startMonth": 3,
+      "endMonth": 4
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 12,
+        "max": 24
+      },
+      "humidityRange": {
+        "min": 55,
+        "max": 70
+      },
+      "soilType": "Loamy",
+      "soilmoistureRange": {
+        "min": 50,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Cabbage",
+    "category": "Vegetable",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 9,
+      "endMonth": 11
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 3
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 15,
+        "max": 20
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 80
+      },
+      "soilType": "Loamy, Clay Loam",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 75
+      }
+    }
+  },
+  {
+    "name": "Lentil",
+    "category": "Pulse",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 10,
+      "endMonth": 11
+    },
+    "harvestPeriod": {
+      "startMonth": 2,
+      "endMonth": 3
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 15,
+        "max": 25
+      },
+      "humidityRange": {
+        "min": 50,
+        "max": 65
+      },
+      "soilType": "Loamy, Clay Loam",
+      "soilmoistureRange": {
+        "min": 35,
+        "max": 50
+      }
+    }
+  },
+  {
+    "name": "Ginger",
+    "category": "Spice",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 4,
+      "endMonth": 5
+    },
+    "harvestPeriod": {
+      "startMonth": 12,
+      "endMonth": 1
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 25,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 85
+      },
+      "soilType": "Sandy Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 80
+      }
+    }
+  },
+  {
+    "name": "Mango",
+    "category": "Fruit",
+    "season": "Perennial",
+    "showingPeriod": {
+      "startMonth": 6,
+      "endMonth": 8
+    },
+    "harvestPeriod": {
+      "startMonth": 5,
+      "endMonth": 7
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 24,
+        "max": 30
+      },
+      "humidityRange": {
+        "min": 50,
+        "max": 70
+      },
+      "soilType": "Deep Loamy",
+      "soilmoistureRange": {
+        "min": 40,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Banana",
+    "category": "Fruit",
+    "season": "Perennial",
+    "showingPeriod": {
+      "startMonth": 2,
+      "endMonth": 10
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 12
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 85
+      },
+      "soilType": "Fertile Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 80
+      }
+    }
+  },
+  {
+    "name": "Sugarcane",
+    "category": "Cash Crop",
+    "season": "Annual",
+    "showingPeriod": {
+      "startMonth": 1,
+      "endMonth": 3
+    },
+    "harvestPeriod": {
+      "startMonth": 12,
+      "endMonth": 2
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 35
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 85
+      },
+      "soilType": "Heavy Loamy",
+      "soilmoistureRange": {
+        "min": 65,
+        "max": 80
+      }
+    }
+  },
+  {
+    "name": "Cotton",
+    "category": "Fiber",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 5,
+      "endMonth": 6
+    },
+    "harvestPeriod": {
+      "startMonth": 10,
+      "endMonth": 12
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 21,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 50,
+        "max": 75
+      },
+      "soilType": "Black Soil, Clayey",
+      "soilmoistureRange": {
+        "min": 40,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Tea",
+    "category": "Beverage",
+    "season": "Perennial",
+    "showingPeriod": {
+      "startMonth": 4,
+      "endMonth": 6
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 12
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 18,
+        "max": 30
+      },
+      "humidityRange": {
+        "min": 75,
+        "max": 85
+      },
+      "soilType": "Acidic Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 75
+      }
+    }
+  },
+  {
+    "name": "Sunflower",
+    "category": "Oilseed",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 11,
+      "endMonth": 12
+    },
+    "harvestPeriod": {
+      "startMonth": 3,
+      "endMonth": 4
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 18,
+        "max": 28
+      },
+      "humidityRange": {
+        "min": 55,
+        "max": 70
+      },
+      "soilType": "Loamy",
+      "soilmoistureRange": {
+        "min": 45,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Eggplant",
+    "category": "Vegetable",
+    "season": "Annual",
+    "showingPeriod": {
+      "startMonth": 10,
+      "endMonth": 11
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 6
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 30
+      },
+      "humidityRange": {
+        "min": 65,
+        "max": 75
+      },
+      "soilType": "Silt Loamy",
+      "soilmoistureRange": {
+        "min": 55,
+        "max": 70
+      }
+    }
+  },
+  {
+    "name": "Lady Finger",
+    "category": "Vegetable",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 3,
+      "endMonth": 4
+    },
+    "harvestPeriod": {
+      "startMonth": 6,
+      "endMonth": 8
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 24,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 65,
+        "max": 80
+      },
+      "soilType": "Loamy",
+      "soilmoistureRange": {
+        "min": 50,
+        "max": 65
+      }
+    }
+  },
+  {
+    "name": "Turmeric",
+    "category": "Spice",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 4,
+      "endMonth": 5
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 2
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 30
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 90
+      },
+      "soilType": "Sandy Loamy, Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 80
+      }
+    }
+  },
+  {
+    "name": "Pineapple",
+    "category": "Fruit",
+    "season": "Perennial",
+    "showingPeriod": {
+      "startMonth": 10,
+      "endMonth": 11
+    },
+    "harvestPeriod": {
+      "startMonth": 6,
+      "endMonth": 8
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 22,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 85
+      },
+      "soilType": "Sandy Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 75
+      }
+    }
+  },
+  {
+    "name": "Watermelon",
+    "category": "Fruit",
+    "season": "Rabi",
+    "showingPeriod": {
+      "startMonth": 1,
+      "endMonth": 2
+    },
+    "harvestPeriod": {
+      "startMonth": 4,
+      "endMonth": 5
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 24,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 50,
+        "max": 70
+      },
+      "soilType": "Sandy",
+      "soilmoistureRange": {
+        "min": 40,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "Cucumber",
+    "category": "Vegetable",
+    "season": "Kharif",
+    "showingPeriod": {
+      "startMonth": 2,
+      "endMonth": 3
+    },
+    "harvestPeriod": {
+      "startMonth": 5,
+      "endMonth": 6
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 22,
+        "max": 30
+      },
+      "humidityRange": {
+        "min": 65,
+        "max": 80
+      },
+      "soilType": "Loamy",
+      "soilmoistureRange": {
+        "min": 55,
+        "max": 70
+      }
+    }
+  },
+  {
+    "name": "Black Pepper",
+    "category": "Spice",
+    "season": "Perennial",
+    "showingPeriod": {
+      "startMonth": 6,
+      "endMonth": 7
+    },
+    "harvestPeriod": {
+      "startMonth": 1,
+      "endMonth": 3
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 20,
+        "max": 32
+      },
+      "humidityRange": {
+        "min": 75,
+        "max": 85
+      },
+      "soilType": "Red Loamy",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 80
+      }
+    }
+  },
+  {
+    "name": "Coffee",
+    "category": "Beverage",
+    "season": "Perennial",
+    "showingPeriod": {
+      "startMonth": 6,
+      "endMonth": 8
+    },
+    "harvestPeriod": {
+      "startMonth": 11,
+      "endMonth": 1
+    },
+    "idealConditions": {
+      "temperatureRange": {
+        "min": 15,
+        "max": 28
+      },
+      "humidityRange": {
+        "min": 70,
+        "max": 85
+      },
+      "soilType": "Volcanic, Rich Loam",
+      "soilmoistureRange": {
+        "min": 60,
+        "max": 75
+      }
+    }
+  }
+]
